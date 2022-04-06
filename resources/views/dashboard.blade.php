@@ -89,12 +89,176 @@
         </div>
 
     @elserole('empleado')
-        <div class="container-fluid d-flex">
-            <h1 class="h3"> {{__('Bienvenido ')}} {{ Auth::user()->name }}</h1>
-        </div>
 
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://boliviatravelsite.com/Images/Attractionphotos/Potosi/casa-de-la-moneda-potosi-01.jpg" class="d-block w-100" >
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://historia.nationalgeographic.com.es/medio/2020/03/02/potosi-refranes_df7a5a0c_1280x853.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.ecestaticos.com/2UE_bfvsFb0lgRKEX1P8Ulu_0ug=/4x0:2121x1412/1440x810/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F710%2F67f%2Fa30%2F71067fa303cb1b3e761b0334523e2cdd.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://historia.nationalgeographic.com.es/medio/2020/03/02/potosi-refranes_df7a5a0c_1280x853.jpg" class="d-block w-100" >
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.ecestaticos.com/2UE_bfvsFb0lgRKEX1P8Ulu_0ug=/4x0:2121x1412/1440x810/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F710%2F67f%2Fa30%2F71067fa303cb1b3e761b0334523e2cdd.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://boliviatravelsite.com/Images/Attractionphotos/Potosi/casa-de-la-moneda-potosi-01.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.ecestaticos.com/2UE_bfvsFb0lgRKEX1P8Ulu_0ug=/4x0:2121x1412/1440x810/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F710%2F67f%2Fa30%2F71067fa303cb1b3e761b0334523e2cdd.jpg" class="d-block w-100" >
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://boliviatravelsite.com/Images/Attractionphotos/Potosi/casa-de-la-moneda-potosi-01.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://historia.nationalgeographic.com.es/medio/2020/03/02/potosi-refranes_df7a5a0c_1280x853.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+        
     @elserole('administrador')
     
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://boliviatravelsite.com/Images/Attractionphotos/Potosi/casa-de-la-moneda-potosi-01.jpg" class="d-block w-100" >
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://historia.nationalgeographic.com.es/medio/2020/03/02/potosi-refranes_df7a5a0c_1280x853.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.ecestaticos.com/2UE_bfvsFb0lgRKEX1P8Ulu_0ug=/4x0:2121x1412/1440x810/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F710%2F67f%2Fa30%2F71067fa303cb1b3e761b0334523e2cdd.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://historia.nationalgeographic.com.es/medio/2020/03/02/potosi-refranes_df7a5a0c_1280x853.jpg" class="d-block w-100" >
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.ecestaticos.com/2UE_bfvsFb0lgRKEX1P8Ulu_0ug=/4x0:2121x1412/1440x810/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F710%2F67f%2Fa30%2F71067fa303cb1b3e761b0334523e2cdd.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://boliviatravelsite.com/Images/Attractionphotos/Potosi/casa-de-la-moneda-potosi-01.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.ecestaticos.com/2UE_bfvsFb0lgRKEX1P8Ulu_0ug=/4x0:2121x1412/1440x810/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F710%2F67f%2Fa30%2F71067fa303cb1b3e761b0334523e2cdd.jpg" class="d-block w-100" >
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://boliviatravelsite.com/Images/Attractionphotos/Potosi/casa-de-la-moneda-potosi-01.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://historia.nationalgeographic.com.es/medio/2020/03/02/potosi-refranes_df7a5a0c_1280x853.jpg" class="d-block w-100">
+                <div class="carousel-caption d-none d-md-block">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
         
     @endrole
 

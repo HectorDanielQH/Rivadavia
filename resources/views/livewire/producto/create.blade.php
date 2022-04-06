@@ -2,7 +2,10 @@
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
-    <div class="container-fluid animate__animated animate__fadeInUp pt-4 bg-tranparent" style="">
+    <div class="container-fluid animate__animated animate__fadeInUp pt-4 bg-tranparent" style="background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%; margin-bottom: 15vh">
         <form class="bg-dark text-white shadow-md rounded p-4" wire:submit.prevent="guardar()" enctype="multipart/form-data">
             <div class="mb-4">
                 @if($hab_up)
