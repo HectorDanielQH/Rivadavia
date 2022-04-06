@@ -390,6 +390,13 @@ return [
             'can'  => 'cliente.home',
             'submenu' => [
                 [
+                    'text' => 'Realizar pedidos',
+                    'url'  => '#',
+                    'icon' => 'fas fa-solid fa-calendar-day',
+                    'icon_color' => 'orange',
+                    'can'  => 'cliente.home',
+                ],
+                [
                     'text' => 'Pedidos por día',
                     'url'  => '#',
                     'icon' => 'fas fa-solid fa-calendar-day',
@@ -419,6 +426,13 @@ return [
             'icon_color' => 'white',
             'can'  => 'cliente.home',
             'submenu' => [
+                [
+                    'text' => 'Realizar Cotizaciones',
+                    'url'  => '#',
+                    'icon' => 'fas fa-solid fa-calendar-day',
+                    'icon_color' => 'orange',
+                    'can'  => 'cliente.home',
+                ],
                 [
                     'text' => 'Cotizaciones por día',
                     'url'  => '#',
