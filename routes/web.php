@@ -7,7 +7,7 @@ use App\Http\Livewire\Empleados;
 use App\Http\Livewire\Administradores;
 use App\Http\Livewire\ProductoCliente;
 use App\Http\Livewire\ServicioCliente;
-
+use App\Http\Livewire\RealizarPedidos;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -30,6 +30,7 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::get('/administrador',Administradores::class);
     Route::get('/ProductosImprenta',ProductoCliente::class);
     Route::get('/ServiciosImprenta',ServicioCliente::class);
+    Route::get('/RealizarPedidos',RealizarPedidos::class);
     Route::get('/dashboard',function(){
         return view('dashboard');
     })->name('dashboard');

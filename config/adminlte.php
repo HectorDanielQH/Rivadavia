@@ -1,5 +1,4 @@
 <?php
-
 return [
 
     /*
@@ -391,29 +390,22 @@ return [
             'submenu' => [
                 [
                     'text' => 'Realizar pedidos',
+                    'url'  => '/RealizarPedidos',
+                    'icon' => 'fas fa-solid fa-calendar-day',
+                    'icon_color' => 'orange',
+                    'can'  => 'cliente.home',
+                ],
+                [
+                    'text' => 'Pedidos Pendientes',
                     'url'  => '#',
                     'icon' => 'fas fa-solid fa-calendar-day',
                     'icon_color' => 'orange',
                     'can'  => 'cliente.home',
                 ],
                 [
-                    'text' => 'Pedidos por día',
-                    'url'  => '#',
-                    'icon' => 'fas fa-solid fa-calendar-day',
-                    'icon_color' => 'orange',
-                    'can'  => 'cliente.home',
-                ],
-                [
-                    'text' => 'Pedidos por semana',
+                    'text' => 'Pedidos Realizados',
                     'url'  => '#',
                     'icon' => 'fas fa-solid fa-calendar-week',
-                    'icon_color' => 'orange',
-                    'can'  => 'cliente.home',
-                ],
-                [
-                    'text' => 'Pedidos por mes',
-                    'url'  => '#',
-                    'icon' => 'fas fa-solid fa-calendar-alt',
                     'icon_color' => 'orange',
                     'can'  => 'cliente.home',
                 ],
