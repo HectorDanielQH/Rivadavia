@@ -11,7 +11,7 @@ class RealizarPedidos extends Component
     use WithFileUploads;
 
 
-    public $abrir=false;
+    public $abrir=false,$anadir;
     public $pedido,$numero_pedido=null;
     public $descripcion,$cantidad,$imagen,$id_item;
     public function render()
@@ -22,7 +22,8 @@ class RealizarPedidos extends Component
     }
     public function AbrirFormulario(){
         $this->abrir=true;
-    }
+        $this->anadir=true;
+    } 
     public function CerrarFormulario(){
         $this->abrir=false;
         $this->limpiarDatos();

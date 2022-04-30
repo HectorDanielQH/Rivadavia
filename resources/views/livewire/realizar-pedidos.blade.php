@@ -1,4 +1,18 @@
-<div class="container-fluid pt-3">
+<div class="container-fluid pt-3 contenedor">
+    <style>
+        .contenedor{
+            width: 100%;
+            height:100vh;
+            display: flex;
+            flex-direction: column ;
+            justify-content: flex-start;
+            align-items: center;
+            overflow: hidden;
+            background: #000046;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+    </style>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 @if ($abrir)
     @include('livewire.PedidosCliente.create')
@@ -8,6 +22,16 @@
             swal({
                 title: "FACILITAMOS TUS PEDIDOS",
                 text: "Simplemente ingresa tus pedidos y si se pierde por algun motivo se auto recupera",
+                icon: "success",
+                button: "Ok",
+            });
+        </script>
+    @endif
+    @if($anadir)
+        <script>
+            swal({
+                title: "EXCELENTE!!!",
+                text: "Se añadio tu pedido correctamente",
                 icon: "success",
                 button: "Ok",
             });
